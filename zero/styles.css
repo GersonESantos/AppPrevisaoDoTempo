@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://fastly.picsum.photos/id/84/1920/1089.jpg?hmac=7a1ruFVXDtqlpkROLJzuOPSf8L1Um_KGWBxHPcqkLss');
+}
+.caixa-maior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.input-cidade{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.img-buscar{
+    width: 30px;
+    cursor: pointer;
+}
+.botao-buscar:hover{
+    transform: scale(1.1);
+}
+.cidade{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.caixa-menor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 10px 0;
+}
+.texto-previsao{
+    font-size: 16px;
+    color: #0e1b35;
+}
+.   
