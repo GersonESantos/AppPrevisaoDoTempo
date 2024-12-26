@@ -9,6 +9,7 @@ function colocarNaTela(dados){
     document.querySelector(".temp").innerHTML =  Math.floor(dados.main.temp) + "°C"
     document.querySelector(".descricao").innerHTML = dados.weather[0].description
     document.querySelector(".icone").src = "https://openweathermap.org/img/wn/" + dados.weather[0].icon + ".png"
+    document.querySelector(".previsao").innerHTML = "Previsão para " + dados.name
 }
 
 async function buscarCidade(cidade){

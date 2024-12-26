@@ -55,5 +55,9 @@ body{
 .texto-previsao{
     font-size: 16px;
     color: #0e1b35;
+    text-transform: capitalize;
 }
-.   
+.umidade{
+    font-size: 16px;
+    color: #0e1b35;
+}  
