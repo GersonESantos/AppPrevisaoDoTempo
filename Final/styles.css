@@ -16,7 +16,6 @@ body {
 }
 
 .caixa-maior {
-    display: flex;
     background-color: #000000;
     width: 95%; 
     max-width: 420px; 
@@ -24,7 +23,6 @@ body {
     padding: 20px;
     border-radius: 25px;
 }
-
 
 input {
     border: none;/* borda do elemento */
@@ -82,8 +80,7 @@ h2 {
     text-transform: capitalize; /* Deixa a primeira letra maiuscula*/
 }
 
-.descricao {
+.umidade {
     color: #ffffff;
-    margin-left: 20px;
-    text-transform: capitalize; /* Deixa a primeira letra maiuscula*/
+    margin-top: 30px;
 }
