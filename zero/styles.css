@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,56 +14,21 @@ body{
     background-image: url('https://fastly.picsum.photos/id/84/1920/1089.jpg?hmac=7a1ruFVXDtqlpkROLJzuOPSf8L1Um_KGWBxHPcqkLss');
     background-size: cover;
 }
-input{
-    border: none;
-    outline: none;
-    padding: 10px;
-    border-radius: 24px;
-    font-size: 20px;
-    background-color: #7c7c7c2b;
-    color: #ffffff;
-    width: calc( 100% - 100px);
-}
+
 .caixa-maior {
-    display: flex;
     background-color: rgba(255, 255, 255, 0.8);
-    max-width: 420px; 
+    width: 95%;
+    max-width: 420px;
+    opacity: 0.8;
     padding: 20px;
     border-radius: 25px;
     align-items: center;
     flex-direction: column;
-    /*
+    /*display : flex;*/
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    */
-    }
-    
-    
-.input-cidade{     
-    width:  100% ;
-   
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
 }
 
-.img-buscar{
-    width: 30px;
-    cursor: pointer;
-}
-.botao-buscar:hover{
-    transform: scale(1.1);
-}
-
-.cidade{
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px 0;
-    }
-    
-    
-.caixa-menor{
+.caixa-menor {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,16 +39,59 @@ input{
     margin: 10px 0;
 }
 
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 100px);
+}
+
 .lupa {
     height: 20px;
 }
-.texto-previsao{
+
+.umidade {
+    font-size: 16px;
+    color: #0e1b35;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+.texto-previsao {
     font-size: 16px;
     color: #0e1b35;
     text-transform: capitalize;
-    }
-    
-.umidade{
+}
+
+.cidade {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.botao-buscar:hover {
+    transform: scale(1.1);
+}
+.img-buscar {
+    width: 30px;
+    cursor: pointer;
+}
+.input-cidade {
+    /*width: 100%;*/
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
     font-size: 16px;
-    color: #0e1b35;
-}  
+}
